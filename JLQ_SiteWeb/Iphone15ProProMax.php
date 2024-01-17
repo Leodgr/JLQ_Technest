@@ -9,7 +9,7 @@
 	</head>   
     <body>
     <?php 
-        $connexion = mysqli_connect("localhost", "root", "", "jlq_sitebd");
+        $connexion = mysqli_connect("localhost", "root", "", "jlq_sitebd_2");
         mysqli_set_charset($connexion, "utf8");
         if ($connexion->connect_error) {
           die("Connection failed: " . $connexion->connect_error);
